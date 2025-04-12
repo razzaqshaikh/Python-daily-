@@ -353,6 +353,17 @@ for i in range(1 , 10):
 
 
 
+#function questions
+#1. Write a function to find the square of a number.
+
+def square_ofnumber(square):
+    return square**2
+result = square_ofnumber(10)
+print(result)
+
+
+#Create a function that takes two numbers and returns their sum, difference, product, and quotient
+
 
 
 
