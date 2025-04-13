@@ -363,7 +363,39 @@ print(result)
 
 
 #Create a function that takes two numbers and returns their sum, difference, product, and quotient
+#please this solve this
 
+
+#Write a function to check if a given string is a palindrome.
+
+def palindrome_check(name):
+    if name == name[::-1]:
+        print(f"{name} it's a palindrome " )
+
+palindrome_check('madam')
+
+
+#Define a function that counts the vowels in a string.
+
+def count_vowels(x):
+    vowels = 'aeiouAEIOU'
+    count = 0
+    for char in x:
+        if char in vowels:
+            count += 1
+    return count       
+text = "hey this razzaque"
+number_of_vowels = count_vowels(text)
+print("Number of vowels:", number_of_vowels)
+
+
+   #Write a function that accepts a list of numbers and returns the largest and smallest numbers.
+    # solve this
+
+
+#Create a function that checks if a number is prime.
+#solve this
+    
 
 
 
